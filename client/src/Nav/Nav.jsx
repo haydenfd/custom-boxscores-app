@@ -5,7 +5,7 @@ export const Nav = () => {
   return (
     <Navbar position='static' classNames={ 
         { 
-          base: cn("bg-nba-primary-blue mb-10 py-2")
+          base: cn("bg-nba-primary-blue mb-10 py-2 shadow-xl")
         }
       }>
       <NavbarBrand>
