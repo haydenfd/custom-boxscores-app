@@ -4,7 +4,7 @@ from nba_api.live.nba.endpoints import scoreboard, boxscore
 from fastapi.encoders import jsonable_encoder
 
 origins = [
-    "http://localhost"
+    "*"
 ]
 
 app = FastAPI()
