@@ -9,8 +9,8 @@ export const Nav = () => {
         }
       }>
       <NavbarBrand>
-        <p className='font-bold text-5xl mr-4 italic text-white'>Custom</p>
-        <p className='font-bold text-5xl italic text-white'>BoxScores</p>
+        <p className='font-bold text-5xl mr-4  text-white'>Custom</p>
+        <p className='font-bold text-5xl text-nba-primary-red/80'>BoxScores</p>
       </NavbarBrand>
     </Navbar>
   )

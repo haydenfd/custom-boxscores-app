@@ -1,8 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+.page-title {
+  @apply text-4xl font-semibold text-black;
+}
+
 @tailwind utilities;
 
-/* TODO: IMPORT QUICKSAND FROM GOOGLE FONTS */
 * {
   scroll-behavior: smooth;
 }
@@ -15,7 +19,7 @@ body {
   margin: 0;
   height: 100%;
   padding: auto;
-  font-family: 'Nunito Sans', 'Roboto', 'Oxygen',
+  font-family: 'Poppins', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
