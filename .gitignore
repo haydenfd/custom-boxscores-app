@@ -17,4 +17,5 @@ yarn-debug.log*
 yarn-error.log*
 server/cb-ec2-key.pem
 server/virtualenv
-server/__pycache__/
+**/__pycache__/
+**/.DS_Store
