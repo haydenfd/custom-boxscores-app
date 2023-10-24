@@ -35,7 +35,7 @@ export const Home = () => {
               //   <h1>{game.HOME_TEAM}</h1>
               //   <h1>{game.VISITOR_TEAM}</h1>
               // </div>
-              <GameCard key={game.ID} home_team={game.HOME_TEAM} away_team={game.VISITOR_TEAM}/>
+              <GameCard key={game.ID} home_team={game.HOME_TEAM} away_team={game.VISITOR_TEAM} status_id={game.STATUS_ID} status_text={game.STATUS_TEXT}/>
           )
           })
         }
